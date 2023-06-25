@@ -1,0 +1,23 @@
+.button {
+    min-width: 200px;
+    padding: 5px 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    background-color: var(--grey-base);
+    color: var(--white) !important;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.big-button {
+    width: 450px;
+}
+
+.button:hover {
+    background-color: var(--grey-highlight);
+}
+
